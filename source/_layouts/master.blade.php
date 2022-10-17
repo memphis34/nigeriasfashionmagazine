@@ -27,35 +27,35 @@
 
 		<!-- Bootstrap -->
 
-		<link rel="stylesheet" href="scripts/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="{{ mix('scripts/bootstrap/bootstrap.min.css', 'assets/build')}}">
 
 		<!-- IonIcons -->
 
-		<link rel="stylesheet" href="scripts/ionicons/css/ionicons.min.css">
+		<link rel="stylesheet" href="{{ mix('scripts/ionicons/css/ionicons.min.css', 'assets/build')}}">
 
 		<!-- Toast -->
 
-		<link rel="stylesheet" href="scripts/toast/jquery.toast.min.css">
+		<link rel="stylesheet" href="{{ mix('scripts/toast/jquery.toast.min.css, 'assets/build')}}">
 
 		<!-- OwlCarousel -->
 
-		<link rel="stylesheet" href="scripts/owlcarousel/dist/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="{{ mix('scripts/owlcarousel/dist/assets/owl.carousel.min.css', 'assets/build')}}>
 
-		<link rel="stylesheet" href="scripts/owlcarousel/dist/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="{{ mix('scripts/owlcarousel/dist/assets/owl.theme.default.min.css', 'assets/build')}}>
 
 		<!-- Magnific Popup -->
 
-		<link rel="stylesheet" href="scripts/magnific-popup/dist/magnific-popup.css">
+		<link rel="stylesheet" href="{{ mix('scripts/magnific-popup/dist/magnific-popup.css', 'assets/build')}}">
 
-		<link rel="stylesheet" href="scripts/sweetalert/dist/sweetalert.css">
+		<link rel="stylesheet" href="{{ mix('scripts/sweetalert/dist/sweetalert.css', 'assets/build')}}">
 
 		<!-- Custom style -->
 
-		<link rel="stylesheet" href="{{ assets(css/style.css)}}">
+		<link rel="stylesheet" href="{{ mix('css/style.css', 'assets/build')}}">
 
-		<link rel="stylesheet" href="css/skins/all.css">
+		<link rel="stylesheet" href="{{ mix('css/skins/all.css', 'assets/build')}}">
 
-		<link rel="stylesheet" href="css/demo.css">
+		<link rel="stylesheet" href="{{ mix('css/demo.css', 'assets/build')}}">
     
 
     <title>
