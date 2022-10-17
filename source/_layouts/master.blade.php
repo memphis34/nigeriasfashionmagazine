@@ -27,7 +27,7 @@
 
 		<!-- Bootstrap -->
 
-		<link rel="stylesheet" href="{{ asset('./_assets/scripts/bootstrap/bootstrap.min.css')}}">
+		<link rel="stylesheet" href="{{URL::asset('./_assets/scripts/bootstrap/bootstrap.min.css')}}">
 
 		<!-- IonIcons -->
 
