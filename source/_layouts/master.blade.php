@@ -35,7 +35,7 @@
 
 		<!-- Toast -->
 
-		<link rel="stylesheet" href="{{ mix('scripts/toast/jquery.toast.min.css, 'assets/build')}}">
+		<link rel="stylesheet" href="{{ mix('scripts/toast/jquery.toast.min.css', 'assets/build')}}">
 
 		<!-- OwlCarousel -->
 
