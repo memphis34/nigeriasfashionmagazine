@@ -18,6 +18,7 @@ mix.jigsaw()
     .css('source/_assets/css/demo.css', 'css')
     .css('source/_assets/css/skins/all.css', 'css')
     .css('source/_assets/scripts/toast/jquery.toast.min.css', 'css')
+    .css('source/_assets/scripts/ionicons/css/ionicons.min.css', 'css')
     .options({
         processCssUrls: false,
     })
