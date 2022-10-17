@@ -3,7 +3,7 @@
 /build_production/
 /cache/
 /node_modules/
-/source/assets/build/
+
 /vendor/
 /.idea/
 /.vscode/
