@@ -2,8 +2,62 @@
 <html lang="{{ $page->language ?? 'en' }}">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<meta name="description" content="NfM is an award winning magazine spread across 35 countries in the world with assorted distribution channel.">
+
+		<meta name="author" content="NfM">
+
+		<meta name="keyword" content="fashion,magazine,NFM,NIGERIA FASHION, nigeriafashionmagazine">
+
+		<!-- Shareable -->
+
+		<meta property="og:title" content="NFM " />
+
+		<meta property="og:type" content="article" />
+
+		<meta property="og:url" content="http://nigeriafashionmagazine.netlify.app" />
+
+		<meta property="og:image" content="" />
+
+		
+
+		<!-- Bootstrap -->
+
+		<link rel="stylesheet" href="scripts/bootstrap/bootstrap.min.css">
+
+		<!-- IonIcons -->
+
+		<link rel="stylesheet" href="scripts/ionicons/css/ionicons.min.css">
+
+		<!-- Toast -->
+
+		<link rel="stylesheet" href="scripts/toast/jquery.toast.min.css">
+
+		<!-- OwlCarousel -->
+
+		<link rel="stylesheet" href="scripts/owlcarousel/dist/assets/owl.carousel.min.css">
+
+		<link rel="stylesheet" href="scripts/owlcarousel/dist/assets/owl.theme.default.min.css">
+
+		<!-- Magnific Popup -->
+
+		<link rel="stylesheet" href="scripts/magnific-popup/dist/magnific-popup.css">
+
+		<link rel="stylesheet" href="scripts/sweetalert/dist/sweetalert.css">
+
+		<!-- Custom style -->
+
+		<link rel="stylesheet" href="css/style.css">
+
+		<link rel="stylesheet" href="css/skins/all.css">
+
+		<link rel="stylesheet" href="css/demo.css">
+    
+
     <title>
         @yield('title')
         {{ !empty($__env->yieldContent('title')) ? ' | ' : '' }}
