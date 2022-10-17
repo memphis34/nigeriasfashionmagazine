@@ -27,29 +27,7 @@
 
 		<!-- Bootstrap 
 
-		<link rel="stylesheet" href="./_assets/scripts/bootstrap/bootstrap.min.css">
-
-		IonIcons 
-
-		<link rel="stylesheet" href="{{ mix('scripts/ionicons/css/ionicons.min.css', 'assets/build')}}">
-
-		
-
-		<link rel="stylesheet" href="{{ mix('scripts/toast/jquery.toast.min.css', 'assets/build')}}">
-
-		
-
-		<link rel="stylesheet" href="{{ mix('scripts/owlcarousel/dist/assets/owl.carousel.min.css', 'assets/build')}}>
-
-		<link rel="stylesheet" href="{{ mix('scripts/owlcarousel/dist/assets/owl.theme.default.min.css', 'assets/build')}}>
-
-		
-
-		<link rel="stylesheet" href="{{ mix('scripts/magnific-popup/dist/magnific-popup.css', 'assets/build')}}">
-
-		<link rel="stylesheet" href="{{ mix('scripts/sweetalert/dist/sweetalert.css', 'assets/build')}}">
-
-		ustom style -->
+		<link rel="stylesheet" href="./_assets/scripts/bootstrap/bootstrap.min.css">-->
 
 		<link rel="stylesheet" href="{{ mix('css/style.css', 'assets/build')}}">
 
