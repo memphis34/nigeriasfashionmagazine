@@ -10,6 +10,10 @@ mix.jigsaw()
     .sass('source/_assets/sass/main.scss', 'css')
     .sass('source/_assets/sass/style.scss', 'css')
     .css('source/_assets/css/style.css', 'css')
+    .css('source/_assets/scripts/bootstrap/bootstrap.min.css', 'css')
+    .css('source/_assets/scripts/magnific-popup/dist/magnific-popup.min.css', 'css')
+    .css('source/_assets/scripts/owlcarousel/dist/assets/owl.carousel.min.css', 'css')
+    .css('source/_assets/scripts/sweetalert/dist/sweetalert.min.css', 'css')
     .options({
         processCssUrls: false,
     })
