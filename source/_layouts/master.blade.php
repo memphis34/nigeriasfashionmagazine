@@ -27,7 +27,7 @@
 
 		<!-- Bootstrap -->
 
-		<link rel="stylesheet" href="{{ mix('scripts/bootstrap/bootstrap.min.css', 'public/css')}}">
+		<link rel="stylesheet" href="{{ asset('./_assets/scripts/bootstrap/bootstrap.min.css')}}">
 
 		<!-- IonIcons -->
 
