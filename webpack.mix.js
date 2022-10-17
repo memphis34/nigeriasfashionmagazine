@@ -10,15 +10,15 @@ mix.jigsaw()
 
     
     .css('source/_assets/css/style.css', 'css')
-    .css('source/_assets/scripts/bootstrap/bootstrap.min.css', 'css')
-    .css('source/_assets/scripts/magnific-popup/dist/magnific-popup.css', 'css')
-    .css('source/_assets/scripts/owlcarousel/dist/assets/owl.carousel.min.css', 'css')
-    .css('source/_assets/scripts/sweetalert/dist/sweetalert.css', 'css')
-    .css('source/_assets/scripts/owlcarousel/dist/assets/owl.theme.default.min.css', 'css')
+    .css('source/_assets/scripts/bootstrap/bootstrap.min.css', 'scripts/bootstrap')
+    .css('source/_assets/scripts/magnific-popup/dist/magnific-popup.css', 'scripts/magnific-popup/dist')
+    .css('source/_assets/scripts/owlcarousel/dist/assets/owl.carousel.min.css', 'scripts/owlcarousel/dist/assets')
+    .css('source/_assets/scripts/sweetalert/dist/sweetalert.css', 'scripts/sweetalert/dist')
+    .css('source/_assets/scripts/owlcarousel/dist/assets/owl.theme.default.min.css', 'scripts/owlcarousel/dist/assets')
     .css('source/_assets/css/demo.css', 'css')
     .css('source/_assets/css/skins/all.css', 'css/skins')
-    .css('source/_assets/scripts/toast/jquery.toast.min.css', 'css')
-    .css('source/_assets/scripts/ionicons/css/ionicons.min.css', 'public/css')
+    .css('source/_assets/scripts/toast/jquery.toast.min.css', 'scripts/toast')
+    .css('source/_assets/scripts/ionicons/css/ionicons.min.css', 'scripts/ionicons/css')
     .options({
         processCssUrls: false,
     })
