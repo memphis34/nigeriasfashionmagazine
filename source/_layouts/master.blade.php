@@ -46,7 +46,7 @@
     @include('_partials.head.meta')
     @include('_partials.cms.identity_widget')
 
-    <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+    
 </head>
   <body class="skin-orange">
 		<header class="primary">
