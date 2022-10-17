@@ -2,9 +2,9 @@
 
 return [
     'production' => false,
-    'baseUrl' => 'https://artisanstatic.netlify.app',
+    'baseUrl' => 'https://nigeriafashionmagazine.netlify.app',
     'site' => [
-        'title' => 'My Jigsaw Blog',
+        'title' => 'nigeria fashion magazine',
         'description' => 'Personal blog of John Doe.',
         'image' => 'default-share.png',
     ],
