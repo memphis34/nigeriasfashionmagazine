@@ -14,7 +14,7 @@ mix.jigsaw()
     .js('source/_assets/scripts/jquery-number/jquery.number.min.js', 'scripts/jquery-number')
     .js('source/_assets/scripts/owlcarousel/dist/owl.carousel.min.js','scripts/owlcarousel/dist')
 
-    .js('source/_assets/scripts/magnific-popup/distro/jquery.magnific-popup.js','scripts/magnific-popup/distro')
+    .js('source/_assets/scripts/magnific-popup/dist/magnific-popup.min.js','scripts/magnific-popup/dist')
     .js('source/_assets/scripts/easescroll/jquery.easeScroll.js','scripts/easescroll')
     .js('source/_assets/scripts/sweetalert/dist/sweetalert.min.js','scripts/sweetalert/dist')
     .js('source/_assets/scripts/toast/jquery.toast.min.js','scripts/toast')
