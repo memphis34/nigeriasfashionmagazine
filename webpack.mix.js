@@ -6,8 +6,9 @@ mix.setPublicPath('source/assets/build');
 
 mix.jigsaw()
     .js('source/_assets/js/main.js', 'js')
-
-
+    .js('source/_assets/js/jquery.js', 'js')
+    .js('source/_assets/js/jquery.migrate.js', 'js')
+     
     
     .css('source/_assets/css/style.css', 'css')
     .css('source/_assets/scripts/bootstrap/bootstrap.min.css', 'scripts/bootstrap')
