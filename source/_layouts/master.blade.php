@@ -454,17 +454,17 @@
 
     </section>
 <script src="js/jquery.js"></script>
-		<script src="js/jquery.migrate.js"></script>
-		<script src="scripts/bootstrap/bootstrap.min.js"></script>
+		<script src="{{ mix('js/jquery.migrate.js','assets/build')}}"></script>
+		<script src="{{ mix('scripts/bootstrap/bootstrap.min.js','assets/build')}}"></script>
 		<script>var $target_end=$(".best-of-the-week");</script>
-		<script src="scripts/jquery-number/jquery.number.min.js"></script>
-		<script src="scripts/owlcarousel/dist/owl.carousel.min.js"></script>
-		<script src="scripts/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-		<script src="scripts/easescroll/jquery.easeScroll.js"></script>
-		<script src="scripts/sweetalert/dist/sweetalert.min.js"></script>
-		<script src="scripts/toast/jquery.toast.min.js"></script>
-		<script src="js/demo.js"></script>
-		<script src="js/e-magz.js"></script>
+		<script src="{{ mix('scripts/jquery-number/jquery.number.min.js','assets/build')}}"></script>
+		<script src="{{ mix('scripts/owlcarousel/dist/owl.carousel.min.js','assets/build')}}"></script>
+		<script src="{{ mix('scripts/magnific-popup/dist/jquery.magnific-popup.min.js','assets/build')}}"></script>
+		<script src="{{ mix('scripts/easescroll/jquery.easeScroll.js,'assets/build')}}"></script>
+		<script src="{{ mix('scripts/sweetalert/dist/sweetalert.min.js','assets/build')}}"></script>
+		<script src="{{ mix('scripts/toast/jquery.toast.min.js','assets/build')}}"></script>
+		<script src="{{ mix('js/demo.js,'assets/build')}}"></script>
+		<script src="{{ mix('js/e-magz.js','assets/build')}}"></script>
     <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
     @includeWhen($page->production && $page->services->analytics, '_partials.analytics')
     @include('_partials.cms.identity_redirect')
