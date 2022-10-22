@@ -459,7 +459,7 @@
 		<script>var $target_end=$(".best-of-the-week");</script>
 		<script src="{{ mix('scripts/jquery-number/jquery.number.min.js','assets/build')}}"></script>
 		<script src="{{ mix('scripts/owlcarousel/dist/owl.carousel.min.js','assets/build')}}"></script>
-		<script src="{{ mix('scripts/magnific-popup/dist/jquery.magnific-popup.min.js','assets/build')}}"></script>
+		<script src="{{ mix('scripts/magnific-popup/dist/magnific-popup.min.js','assets/build')}}"></script>
 		<script src="{{ mix('scripts/easescroll/jquery.easeScroll.js','assets/build')}}"></script>
 		<script src="{{ mix('scripts/sweetalert/dist/sweetalert.min.js','assets/build')}}"></script>
 		<script src="{{ mix('scripts/toast/jquery.toast.min.js','assets/build')}}"></script>
