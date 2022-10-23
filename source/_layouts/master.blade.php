@@ -375,7 +375,7 @@
             
 
     </section>
-<script src="{{ mix('js/jquery.js','assets/build')}}"></script>
+<script src="{{ mix('js/main.js','assets/build')}}"></script>
 		<script src="{{ mix('js/jquery.migrate.js','assets/build')}}"></script>
 		<script src="{{ mix('scripts/bootstrap/bootstrap.min.js','assets/build')}}"></script>
 		<script>var $target_end=$(".best-of-the-week");</script>
