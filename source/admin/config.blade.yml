@@ -30,9 +30,9 @@ collections:
 
     label: "News"
 
-    label_singular: "Post"
+    label_singular: "News"
 
-    folder: "source/_posts"
+    folder: "source/_news"
 
     create: true
 
@@ -55,8 +55,8 @@ collections:
     
   - name: "fashion"
     label: "Fashion"
-    label_singular: "Post"
-    folder: "source/_posts"
+    label_singular: "Fashion"
+    folder: "source/_fashion"
     create: true
     slug: "@{{slug}}"
     fields:
@@ -70,9 +70,9 @@ collections:
 
     label: "Sports"
 
-    label_singular: "Post"
+    label_singular: "Sports"
 
-    folder: "source/_posts"
+    folder: "source/_sports"
 
     create: true
 
@@ -95,9 +95,9 @@ collections:
 
     label: "Runway"
 
-    label_singular: "Post"
+    label_singular: "Runway"
 
-    folder: "source/_posts"
+    folder: "source/_runway"
 
     create: true
 
@@ -120,9 +120,9 @@ collections:
 
     label: "Advert-spaces"
 
-    label_singular: "Post"
+    label_singular: "Advert-spaces"
 
-    folder: "source/_posts"
+    folder: "source/_advert"
 
     create: true
 
@@ -146,9 +146,9 @@ collections:
 
     label: "About"
 
-    label_singular: "Post"
+    label_singular: "About"
 
-    folder: "source/_posts"
+    folder: "source/_about"
 
     create: true
 
@@ -172,9 +172,9 @@ collections:
 
     label: "Celebrity-corner"
 
-    label_singular: "Post"
+    label_singular: "Celebrity"
 
-    folder: "source/_posts"
+    folder: "source/_celebrity"
 
     create: true
 
