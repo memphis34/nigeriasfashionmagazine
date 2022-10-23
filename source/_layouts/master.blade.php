@@ -100,7 +100,7 @@
 						</div>
 						<div class="col-md-3 col-sm-12 text-right">
 							<ul class="nav-icons">
-								<li><a href="register.html"><i class="ion-person-add"></i><div>NEWSLETTER</div></a></li>
+								<li><a href="register.html"><ion-icon name="person"></ion-icon><div>NEWSLETTER</div></a></li>
 							</ul>
 						</div>
 					</div>
@@ -129,7 +129,7 @@
 							<li class="dropdown magz-dropdown">
 								<a href="category.html">News <ion-icon name="arrow-forward-outline"></ion-icon></a>
 								<ul class="dropdown-menu">
-									<li><a href="index.html">Home/a></li>
+									<li><a href="index.html">Home</a></li>
 									<li><a href="category.html">News</a></li>
 									<li><a href="single.html">sports</a></li>
 									<li><a href="page.html">fashion</a></li>
