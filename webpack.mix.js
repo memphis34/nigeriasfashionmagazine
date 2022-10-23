@@ -5,10 +5,10 @@ mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build');
 
 mix.jigsaw()
-    
+    .js('source/_assets/js/jquery.js', 'js')
     .js('source/_assets/js/demo.js','js')
     .js('source/_assets/js/e-magz.js','js')
-    .js('source/_assets/js/jquery.js', 'js')
+    
     .js('source/_assets/js/jquery.migrate.js', 'js')
     .js('source/_assets/scripts/bootstrap/bootstrap.min.js', 'scripts/bootstrap')
     .js('source/_assets/scripts/jquery-number/jquery.number.min.js', 'scripts/jquery-number')
