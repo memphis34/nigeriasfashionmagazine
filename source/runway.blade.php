@@ -6,10 +6,10 @@
     <h1>Top stories</h1>
 
     <ul>
-        @forelse ($runway->sortBy('title') as $Runway)
+        @forelse ($runway->sortBy('title') as $post)
             <li>
-                <a href="{{ $Runway->getPath() }}">{{ $Runway->image }}{{$Runway->title}}</a>
-                <small>{{ $Runway->prettyDate() }}</small>
+                <a href="{{ $post->getPath() }}">{{ $post->image }}{{$post->title}}</a>
+                <small>{{ $poat->prettyDate() }}</small>
             </li>
         
             <p>No posts to show.</p>
