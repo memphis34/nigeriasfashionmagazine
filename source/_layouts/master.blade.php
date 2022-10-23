@@ -115,10 +115,10 @@
 						</a>
 					</div>
 					<div class="mobile-toggle">
-						<a href="#" data-toggle="menu" data-target="#menu-list"><ion-icon name="navicon-round"></ion-icon></a>
+						<a href="#" data-toggle="menu" data-target="#menu-list"><ion-icon name="list-outline"></ion-icon></a>
 					</div>
 					<div class="mobile-toggle">
-						<a href="#" data-toggle="sidebar" data-target="#sidebar"><ion-icon name="arrow-left"></ion-icon></a>
+						<a href="#" data-toggle="sidebar" data-target="#sidebar"><ion-icon name="chevron-back-outline"></ion-icon></a>
 					</div>
 					<div id="menu-list">
 						<ul class="nav-list">
@@ -316,13 +316,13 @@
 									<li>
 										<a href="#" class="facebook">
 											<svg><rect width="0" height="0"/></svg>
-											<ion-icon="facebook"></ion-icon>
+											<ion-icon="logo-facebook"></ion-icon>
 										</a>
 									</li>
 									<li>
 										<a href="#" class="twitter">
 											<svg><rect width="0" height="0"/></svg>
-											<ion-icon name="twitter-outline"></ion-icon>
+											<ion-icon name="logo-twitter"></ion-icon>
 										</a>
 									</li>
 									
