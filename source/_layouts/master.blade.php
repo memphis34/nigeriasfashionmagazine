@@ -57,7 +57,7 @@
 
 		<link rel="stylesheet" href="{{ mix('css/demo.css', 'assets/build')}}">
     
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
     <title>
         @yield('title')
         {{ !empty($__env->yieldContent('title')) ? ' | ' : '' }}
