@@ -8,7 +8,7 @@
      
 
     
-        <img src="{{ media('') }}" alt="ko-fi" width="223" height="30">
+        <img src="{{ media('logo.jpg') }}" alt="ko-fi" width="223" height="30">
 
 
     
