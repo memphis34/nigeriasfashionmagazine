@@ -231,7 +231,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="#">contact us<ion-icon name="arrow-forward-outline></ion-icon></a>
+							<li class="dropdown magz-dropdown"><a href="#">contact us<ion-icon name="arrow-forward-outline"></ion-icon></a>
 								<ul class="dropdown-menu">
 									<li><a href="#"><ion-icon name="person"></ion-icon> facebook</a></li>
 									<li><a href="#"><ion-icon name="heart"></ion-icon> Instagram</a></li>
