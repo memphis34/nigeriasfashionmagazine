@@ -1,6 +1,6 @@
 const mix = require('laravel-mix');
 require('laravel-mix-jigsaw');
-
+require('laravel-mix-imagemin');
 mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build');
 
@@ -28,6 +28,10 @@ mix.jigsaw()
     .css('source/_assets/css/skins/all.css', 'css/skins')
     .css('source/_assets/scripts/toast/jquery.toast.min.css', 'scripts/toast')
     .css('source/_assets/scripts/ionicons/css/ionicons.min.css', 'scripts/ionicons/css')
+    .imagemin({
+        from: 'source/assets/image/**/*.*',
+        to: 'images/[name].[ext]',
+    })
     .options({
         processCssUrls: false,
     })
