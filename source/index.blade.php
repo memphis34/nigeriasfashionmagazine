@@ -1,9 +1,9 @@
 @extends('_layouts.master')
 
 @section('content')
-    <h1>Welcome to Artisan Static</h1>
+    <h1>NIGERIA FASHION MAGAZINE</h1>
 
-    <p>Artisan Static is a starter template for building a static Jigsaw blog hosted on Netlify.</p>
+    <p>Africa's award winning fashion and style magazine spread across 35 countries in the world with channels of distribution. Office No 92c adeola Adelu victoria Island Lagos and No 6a Edinbirhh hallow Essex cm 20-2je eastern region England </p>
 
     <p>This comes with code highlighting, share buttons, comments, analytics, an RSS feed, a contact form, a CMS and more.</p>
 
@@ -11,7 +11,7 @@
 
     <a href="https://ko-fi.com/Y8Y07ACJ" target="_blank" rel="noopener">
         <img src="{{ media('kofi-button.png') }}" alt="ko-fi" width="223" height="30">
-    </a>
+
 
     <h2 id="test">Asset Compilation Test</h2>
 
