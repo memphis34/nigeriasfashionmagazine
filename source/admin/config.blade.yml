@@ -14,7 +14,7 @@ display_url: https://nigeriafashionmagazine.netlify.app
 logo_url: https://res.cloudinary.com/dmc2qrimx/image/upload/v1666547795/FB_IMG_16658245820780083_zuarfi.jpg
 collections:
   - name: "posts"
-    label: "Posts"
+    label: "Top stories"
     label_singular: "Post"
     folder: "source/_posts"
     create: true
@@ -26,3 +26,172 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Comments", name: "comments", widget: "boolean", default: true}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "News"
+
+    label: "News"
+
+    label_singular: "Post"
+
+    folder: "source/_posts"
+
+    create: true
+
+    slug: "@{{slug}}"
+
+    fields:
+
+      - {label: "Title", name: "title", widget: "string", default: "Title"}
+
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", timeFormat: false, pickerUtc: true}
+
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+
+      - {label: "Image", name: "image", widget: "image"}
+
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+
+      - {label: "Body", name: "body", widget: "markdown"}
+
+    
+  - name: "fashion"
+    label: "Fashion"
+    label_singular: "Post"
+    folder: "source/_posts"
+    create: true
+    slug: "@{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "Title"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", timeFormat: false, pickerUtc: true}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "sports"
+
+    label: "Sports"
+
+    label_singular: "Post"
+
+    folder: "source/_posts"
+
+    create: true
+
+    slug: "@{{slug}}"
+
+    fields:
+
+      - {label: "Title", name: "title", widget: "string", default: "Title"}
+
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", timeFormat: false, pickerUtc: true}
+
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+
+      - {label: "Image", name: "image", widget: "image"}
+
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "runway"
+
+    label: "Runway"
+
+    label_singular: "Post"
+
+    folder: "source/_posts"
+
+    create: true
+
+    slug: "@{{slug}}"
+
+    fields:
+
+      - {label: "Title", name: "title", widget: "string", default: "Title"}
+
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", timeFormat: false, pickerUtc: true}
+
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+
+      - {label: "Image", name: "image", widget: "image"}
+
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "advert-spaces"
+
+    label: "Advert-spaces"
+
+    label_singular: "Post"
+
+    folder: "source/_posts"
+
+    create: true
+
+    slug: "@{{slug}}"
+
+    fields:
+
+      - {label: "Title", name: "title", widget: "string", default: "Title"}
+
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", timeFormat: false, pickerUtc: true}
+
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+
+      - {label: "Image", name: "image", widget: "image"}
+
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "about"
+
+    label: "About"
+
+    label_singular: "Post"
+
+    folder: "source/_posts"
+
+    create: true
+
+    slug: "@{{slug}}"
+
+    fields:
+
+      - {label: "Title", name: "title", widget: "string", default: "Title"}
+
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", timeFormat: false, pickerUtc: true}
+
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+
+      - {label: "Image", name: "image", widget: "image"}
+
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "celebrity-corner"
+
+    label: "Celebrity-corner"
+
+    label_singular: "Post"
+
+    folder: "source/_posts"
+
+    create: true
+
+    slug: "@{{slug}}"
+
+    fields:
+
+      - {label: "Title", name: "title", widget: "string", default: "Title"}
+
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", timeFormat: false, pickerUtc: true}
+
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+
+      - {label: "Image", name: "image", widget: "image"}
+
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
