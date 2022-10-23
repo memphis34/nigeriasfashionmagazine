@@ -79,11 +79,11 @@
 						<div class="col-md-3 col-sm-12">
 							<div class="brand">
 								<a href="index.html">
-									<!-- src="{{ url('../_assets/image/FB_IMG_16658245820780083.jpg')}}" alt="Magz Logo"-->
+									<div class="img">
 									
                                                                          <img src="{{ media('logo.jpg')}}" width="150px" height="150px" alt="Logo">
         
-
+</div>
 								</a>
 							</div>						
 						</div>
@@ -116,7 +116,7 @@
 				<div class="container">
 					<div class="brand">
 						<a href="#">
-							<img src="images/logo.png" alt="Magz Logo">
+							
 						</a>
 					</div>
 					<div class="mobile-toggle">
@@ -209,7 +209,7 @@
 									<img src="images/logo-light.png" class="img-responsive" alt="Logo">
 								</figure>
 								<p class="brand-description">
-									pt>
+									
 NFM is an award winning magazine spread across 35 countries worldwide
 	
 
