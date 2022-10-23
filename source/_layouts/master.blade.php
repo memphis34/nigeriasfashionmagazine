@@ -125,18 +125,18 @@
 						<ul class="nav-list">
 							<li class="for-tablet nav-title"><a>NFM</a></li>
 							<li class="for-tablet"><a href="register.html">newsletter</a></li>
-							<li><a href="category.html">Trending</a></li>
+							<li><a href="category.html">Title</a></li>
 							<li class="dropdown magz-dropdown">
-								<a href="category.html">News <ion-icon name="arrow-right"></ion-icon></a>
+								<a href="category.html">News <ion-icon name="arrow-forward-outline"></ion-icon></a>
 								<ul class="dropdown-menu">
-									<li><a href="index.html">Home</a></li>
+									<li><a href="index.html">Home/a></li>
 									<li><a href="category.html">News</a></li>
 									<li><a href="single.html">sports</a></li>
 									<li><a href="page.html">fashion</a></li>
 									<li><a href="search.html">celebrity corner</a></li>
 		</ul>
 							</li>
-							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#">Top stories<ion-icon name="arrow-right"></ion-icon> <div class="badge">Hot</div></a>
+							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#">Top stories<ion-icon name="arrow-forward-outline"></ion-icon> <div class="badge">Hot</div></a>
 								<div class="dropdown-menu megamenu">
 									<div class="megamenu-inner">
 										<div class="row">
@@ -215,7 +215,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#">NFM<i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#">NFM<ion-icon name="arrow-forward-outline"></i></a>
 								<div class="dropdown-menu megamenu">
 									<div class="megamenu-inner">
 										<div class="row">
@@ -231,7 +231,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="#">contact us<i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="#">contact us<ion-icon name="arrow-forward-outline></ion-icon></a>
 								<ul class="dropdown-menu">
 									<li><a href="#"><ion-icon name="person"></ion-icon> facebook</a></li>
 									<li><a href="#"><ion-icon name="heart"></ion-icon> Instagram</a></li>
@@ -262,7 +262,12 @@
 									<img src="images/logo-light.png" class="img-responsive" alt="Logo">
 								</figure>
 								<p class="brand-description">
-									Magz is a HTML5 &amp; CSS3 magazine template based on Bootstrap 3.
+									pt>
+NFM is an award winning magazine spread across 35 countries worldwide
+	
+
+	
+	
 								</p>
 								<a href="page.html" class="btn btn-magz white">About Us <i class="ion-ios-arrow-thin-right"></i></a>
 							</div>
@@ -273,13 +278,13 @@
 							<h1 class="block-title">Popular Tags <div class="right"><a href="#">See All <i class="ion-ios-arrow-thin-right"></i></a></div></h1>
 							<div class="block-body">
 								<ul class="tags">
-									<li><a href="#">HTML5</a></li>
-									<li><a href="#">CSS3</a></li>
-									<li><a href="#">Bootstrap 3</a></li>
-									<li><a href="#">Web Design</a></li>
-									<li><a href="#">Creative Mind</a></li>
-									<li><a href="#">Standing On The Train</a></li>
-									<li><a href="#">at 6.00PM</a></li>
+									<li><a href="#">fashion</a></li>
+									<li><a href="#">sports</a></li>
+									<li><a href="#">celebrity</a></li>
+									<li><a href="#">lifestyle</a></li>
+									<li><a href="#">Runway</a></li>
+									
+									
 								</ul>
 							</div>
 						</div>
@@ -291,7 +296,7 @@
 								<form class="newsletter">
 									<div class="input-group">
 										<div class="input-group-addon">
-											<i class="ion-ios-email-outline"></i>
+											<ion-icon name="email-outline"></ion-icon>
 										</div>
 										<input type="email" class="form-control email" placeholder="Your mail">
 									</div>
@@ -317,7 +322,7 @@
 									<li>
 										<a href="#" class="facebook">
 											<svg><rect width="0" height="0"/></svg>
-											<ion-icon="logo-facebook"></ion-icon>
+											<ion-icon name="logo-facebook"></ion-icon>
 										</a>
 									</li>
 									<li>
@@ -365,7 +370,7 @@
 						<div class="copyright">
 							COPYRIGHT &copy; NFM 2022. ALL RIGHT RESERVED.
 							<div>
-								Made with <ion-icon name="ion-heart"></ion-icon> by <a href="http://.com">NFM</a>
+								Made with <ion-icon name="heart"></ion-icon> by <a href="http://.com">NFM</a>
 							</div>
 						</div>
 					</div>
