@@ -79,7 +79,11 @@
 						<div class="col-md-3 col-sm-12">
 							<div class="brand">
 								<a href="index.html">
-									<img src="{{ url('../_assets/image/FB_IMG_16658245820780083.jpg')}}" alt="Magz Logo">
+									<!-- src="{{ url('../_assets/image/FB_IMG_16658245820780083.jpg')}}" alt="Magz Logo"-->
+									
+                                                                         <img :src="require('@assets/imgage/FB_IMG_16658245820780083.jpg').default" alt="Logo">
+        
+
 								</a>
 							</div>						
 						</div>
