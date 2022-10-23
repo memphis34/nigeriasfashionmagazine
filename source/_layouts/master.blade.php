@@ -88,7 +88,7 @@
 									<div class="input-group">
 										<input type="text" name="q" class="form-control" placeholder="Type something here">									
 										<div class="input-group-btn">
-											<button class="btn btn-primary"><i class="ion-search"></i></button>
+											<button class="btn btn-primary"><ion-icon name="search"></ion-icon></button>
 										</div>
 									</div>
 								</div>
