@@ -29,7 +29,7 @@
                  
 		
 
-		<link rel="stylesheet" href="{{ mix('scripts/ionicons/css/ionicons.min.css', 'assets/build')}}">
+		<link rel="stylesheet
 
 		
 
