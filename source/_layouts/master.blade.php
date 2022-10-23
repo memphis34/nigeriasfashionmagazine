@@ -153,7 +153,7 @@
 									<li><a href="search.html">celebrity corner</a></li>
 		</ul>
 							</li>
-							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#">Top stories<ion-icon name="arrow-forward-outline"></ion-icon> <div class="badge">Hot</div></a>
+							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="/posts">Top stories<ion-icon name="arrow-forward-outline"></ion-icon> <div class="badge">Hot</div></a>
 								<div class="dropdown-menu megamenu">
 									<div class="megamenu-inner">
 										<div class="row">
