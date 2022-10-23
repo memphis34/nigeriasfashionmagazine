@@ -69,7 +69,13 @@
     @include('_partials.head.meta')
     @include('_partials.cms.identity_widget')
 
-    
+    <style>
+    .img{
+    display:flex;
+    justify-content: center;
+    align-item: center;
+    }
+    </style>
 </head>
   <body class="skin-orange">
 		<header class="primary">
