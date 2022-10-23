@@ -5,7 +5,7 @@ mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build');
 
 mix.jigsaw()
-    .js('source/_assets/js/jquery.js', 'js')
+    .js('source/_assets/js/main.js', 'js')
     .js('source/_assets/js/demo.js','js')
     .js('source/_assets/js/e-magz.js','js')
     
