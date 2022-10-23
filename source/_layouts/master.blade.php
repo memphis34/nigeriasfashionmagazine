@@ -81,7 +81,7 @@
 								<a href="index.html">
 									<!-- src="{{ url('../_assets/image/FB_IMG_16658245820780083.jpg')}}" alt="Magz Logo"-->
 									
-                                                                         <img :src="require('@assets/imgage/FB_IMG_16658245820780083.jpg').default" alt="Logo">
+                                                                         <img src="{{ media('logo.jpg')}}" width="150px" height="150px" alt="Logo">
         
 
 								</a>
