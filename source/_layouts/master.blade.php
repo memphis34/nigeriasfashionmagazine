@@ -115,10 +115,10 @@
 						</a>
 					</div>
 					<div class="mobile-toggle">
-						<a href="#" data-toggle="menu" data-target="#menu-list"><i class="ion-navicon-round"></i></a>
+						<a href="#" data-toggle="menu" data-target="#menu-list"><ion-icon name="navicon-round"></ion-icon></a>
 					</div>
 					<div class="mobile-toggle">
-						<a href="#" data-toggle="sidebar" data-target="#sidebar"><i class="ion-ios-arrow-left"></i></a>
+						<a href="#" data-toggle="sidebar" data-target="#sidebar"><ion-icon name="arrow-left"></ion-icon></a>
 					</div>
 					<div id="menu-list">
 						<ul class="nav-list">
@@ -126,7 +126,7 @@
 							<li class="for-tablet"><a href="register.html">newsletter</a></li>
 							<li><a href="category.html">Trending</a></li>
 							<li class="dropdown magz-dropdown">
-								<a href="category.html">News <i class="ion-ios-arrow-right"></i></a>
+								<a href="category.html">News <ion-icon name="arrow-right"></ion-icon></a>
 								<ul class="dropdown-menu">
 									<li><a href="index.html">Home</a></li>
 									<li><a href="category.html">News</a></li>
@@ -135,7 +135,7 @@
 									<li><a href="search.html">celebrity corner</a></li>
 		</ul>
 							</li>
-							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#">Top stories<i class="ion-ios-arrow-right"></i> <div class="badge">Hot</div></a>
+							<li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="#">Top stories<ion-icon name="arrow-right"></ion-icon> <div class="badge">Hot</div></a>
 								<div class="dropdown-menu megamenu">
 									<div class="megamenu-inner">
 										<div class="row">
@@ -232,9 +232,9 @@
 							</li>
 							<li class="dropdown magz-dropdown"><a href="#">contact us<i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
-									<li><a href="#"><i class="icon ion-person"></i> facebook</a></li>
-									<li><a href="#"><i class="icon ion-heart"></i> Instagram</a></li>
-									<li><a href="#"><i class="icon ion-chatbox"></i> Twitter</a></li>
+									<li><a href="#"><ion-icon name="person"></ion-icon> facebook</a></li>
+									<li><a href="#"><ion-icon name="heart"></ion-icon> Instagram</a></li>
+									<li><a href="#"><ion-icon name="chatbox"></ion-icon> Twitter</a></li>
 		</ul>
 							</li>
 						</ul>
@@ -299,61 +299,13 @@
 							</div>
 						</div>
 					</div>
+					
 					<div class="col-md-3 col-sm-6 col-xs-12">
-						<div class="block">
-							<h1 class="block-title">Latest News</h1>
-							<div class="block-body">
-								<article class="article-mini">
-									<div class="inner">
-										<figure>
-											<a href="single.html">
-												<img src="images/news/img12.jpg" alt="Sample Article">
-											</a>
-										</figure>
-										<div class="padding">
-											<h1><a href="single.html">Donec consequat lorem quis augue pharetra</a></h1>
-										</div>
-									</div>
-								</article>
-								<article class="article-mini">
-									<div class="inner">
-										<figure>
-											<a href="single.html">
-												<img src="images/news/img14.jpg" alt="Sample Article">
-											</a>
-										</figure>
-										<div class="padding">
-											<h1><a href="single.html">eu dapibus risus aliquam etiam ut venenatis</a></h1>
-										</div>
-									</div>
-								</article>
-								<article class="article-mini">
-									<div class="inner">
-										<figure>
-											<a href="single.html">
-												<img src="images/news/img15.jpg" alt="Sample Article">
-											</a>
-										</figure>
-										<div class="padding">
-											<h1><a href="single.html">Nulla facilisis odio quis gravida vestibulum </a></h1>
-										</div>
-									</div>
-								</article>
-								<article class="article-mini">
-									<div class="inner">
-										<figure>
-											<a href="single.html">
-												<img src="images/news/img16.jpg" alt="Sample Article">
-											</a>
-										</figure>
-										<div class="padding">
-											<h1><a href="single.html">Proin venenatis pellentesque arcu vitae </a></h1>
-										</div>
-									</div>
-								</article>
-								<a href="#" class="btn btn-magz white btn-block">See All <i class="ion-ios-arrow-thin-right"></i></a>
-							</div>
-						</div>
+						
+								
+								
+							
+						
 					</div>
 					<div class="col-md-3 col-xs-12 col-sm-6">
 						<div class="block">
@@ -364,63 +316,33 @@
 									<li>
 										<a href="#" class="facebook">
 											<svg><rect width="0" height="0"/></svg>
-											<i class="ion-social-facebook"></i>
+											<ion-icon="facebook"></ion-icon>
 										</a>
 									</li>
 									<li>
 										<a href="#" class="twitter">
 											<svg><rect width="0" height="0"/></svg>
-											<i class="ion-social-twitter-outline"></i>
+											<ion-icon name="twitter-outline"></ion-icon>
 										</a>
 									</li>
-									<li>
-										<a href="#" class="youtube">
-											<svg><rect width="0" height="0"/></svg>
-											<i class="ion-social-youtube-outline"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#" class="googleplus">
-											<svg><rect width="0" height="0"/></svg>
-											<i class="ion-social-googleplus"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#" class="instagram">
-											<svg><rect width="0" height="0"/></svg>
-											<i class="ion-social-instagram-outline"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#" class="tumblr">
-											<svg><rect width="0" height="0"/></svg>
-											<i class="ion-social-tumblr"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#" class="dribbble">
-											<svg><rect width="0" height="0"/></svg>
-											<i class="ion-social-dribbble"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#" class="linkedin">
-											<svg><rect width="0" height="0"/></svg>
-											<i class="ion-social-linkedin"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#" class="skype">
-											<svg><rect width="0" height="0"/></svg>
-											<i class="ion-social-skype"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#" class="rss">
-											<svg><rect width="0" height="0"/></svg>
-											<i class="ion-social-rss"></i>
-										</a>
-									</li>
+									
+										
+											
+											
+										
+									
+									
+										
+											
+											
+										
+									
+									
+										
+											
+										
+									
+									
 								</ul>
 							</div>
 						</div>
@@ -440,9 +362,9 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="copyright">
-							COPYRIGHT &copy; MAGZ 2017. ALL RIGHT RESERVED.
+							COPYRIGHT &copy; NFM 2022. ALL RIGHT RESERVED.
 							<div>
-								Made with <i class="ion-heart"></i> by <a href="http://kodinger.com">Kodinger</a>
+								Made with <ion-icon name="ion-heart"></ion-icon> by <a href="http://.com">NFM</a>
 							</div>
 						</div>
 					</div>
