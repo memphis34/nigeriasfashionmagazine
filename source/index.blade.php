@@ -8,8 +8,10 @@
      p{
      text-align: center;
      }
-     img{
-     text-align: center;
+     .img{
+     display: flex;
+     justify-content: center;
+     align-content: center;
      }
      </style>
     <h1 style="color:dodgerblue">NIGERIA FASHION MAGAZINE</h1>
@@ -19,9 +21,9 @@
      
 
 
-    
+    <div class="img">
         <img src="{{ media('logo.jpg') }}" alt="ko-fi" width="300" height="260">
-
+</div>
 
     
 
