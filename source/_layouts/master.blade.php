@@ -69,28 +69,35 @@
     @include('_partials.head.meta')
     @include('_partials.cms.identity_widget')
 
-    <style>
-    .img{
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    }
-    </style>
+
 </head>
   <body class="skin-orange">
+      <style>
+
+    .img{
+
+    display:flex;
+
+    justify-content: center;
+
+    align-content: center;
+
+    }
+
+    </style>
 		<header class="primary">
 			<div class="firstbar">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3 col-sm-12">
 							<div class="brand">
-								<a href="index.html">
+								
 									<div class="img">
-									
+									<a href="/">
                                                                          <img src="{{ media('logo.jpg')}}" width="150px" height="150px" alt="Logo">
-        
+        </a>
 </div>
-								</a>
+								
 							</div>						
 						</div>
 						<div class="col-md-6 col-sm-12">
@@ -139,7 +146,7 @@
 							<li class="dropdown magz-dropdown">
 								<a href="category.html">News <ion-icon name="arrow-forward-outline"></ion-icon></a>
 								<ul class="dropdown-menu">
-									<li><a href="index.html">Home</a></li>
+									<li><a href="/">Home</a></li>
 									<li><a href="category.html">News</a></li>
 									<li><a href="single.html">sports</a></li>
 									<li><a href="page.html">fashion</a></li>
@@ -156,12 +163,7 @@
 														<h2 class="megamenu-title">Trending</h2>
 													</div>
 												</div>
-												<ul class="vertical-menu">
-													<li><a href="#"><i class="ion-ios-circle-outline"></i> Mega menu is a new feature</a></li>
-													<li><a href="#"><i class="ion-ios-circle-outline"></i> This is an example</a></li>
-													<li><a href="#"><i class="ion-ios-circle-outline"></i> For a submenu item</a></li>
-													<li><a href="#"><i class="ion-ios-circle-outline"></i> You can add</a></li>
-													<li><a href="#"><i class="ion-ios-circle-outline"></i> Your own items</a></li>
+												<ul class="vertical-menu"> 
 												</ul>
 											</div>
 																		
@@ -175,7 +177,7 @@
 											<div class="col-md-3">
 												<h2 class="megamenu-title">Nigerian Fashion Magazine</h2>
 												<ul class="vertical-menu">
-													<li><a href="about">About us</a></li>
+													<li><a href="/about">About us</a></li>
 													<li><a href="#">advert spaces</a></li>
 													<li><a href="#">RUNWAY</a></li>
 												</ul>
